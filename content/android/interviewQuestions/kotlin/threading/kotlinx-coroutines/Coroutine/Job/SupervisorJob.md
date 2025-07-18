@@ -1,0 +1,1 @@
+A more superior variant of [[Job]] that acts as non-cancellable coroutine in terms of not cancelling when child or parent job is cancelled.
