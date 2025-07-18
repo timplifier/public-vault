@@ -110,6 +110,67 @@
     "esbuild": "^0.25.5",
     "prettier": "^3.5.3",
     "tsx": "^4.19.4",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji-conventional": "^1.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-emoji-conventional",
+      "disableScopeLowerCase": "true",
+      "disableSubjectLowerCase": "true",
+      "types": {
+        "feature": {
+          "title": "feature",
+          "description": "A new feature",
+          "emoji": "🚀"
+        },
+        "fix": {
+          "title": "fix",
+          "description": "A bug fix",
+          "emoji": "🛠️"
+        },
+        "refactor": {
+          "title": "refactor",
+          "description": "A code change that neither fixes a bug nor adds a feature",
+          "emoji": "♻️"
+        },
+        "performance": {
+          "title": "performance",
+          "description": "A code change that improves application performance (e.g. from O(log n) -> O(1))",
+          "emoji": "⚡️"
+        },
+        "style": {
+          "title": "style",
+          "description": "Changes that target code appearance (white-space, formatting, missing semi-colons, etc.)",
+          "emoji": "🎨"
+        },
+        "naming": {
+          "title": "naming",
+          "description": "Changes that purely affect naming or labeling",
+          "emoji": "🏷️"
+        },
+        "cleaning": {
+          "title": "cleaning",
+          "description": "Changes that target removing unused/useless code",
+          "emoji": "🧹"
+        },
+        "documentation": {
+          "title": "documentation",
+          "description": "Changes that affect project's documentation",
+          "emoji": "📝"
+        },
+        "test": {
+          "title": "test",
+          "description": "Adding tests for code that lacks them or correcting existing tests",
+          "emoji": "🧪"
+        },
+        "gradle": {
+          "title": "gradle",
+          "description": "A code change that affects Gradle build system",
+          "emoji": "🐘"
+        }
+      }
+    }
   }
 }

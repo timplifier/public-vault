@@ -1,0 +1,1 @@
+A [[Dispatcher]] that is not confined to any specific thread. It is used when no other Dispatcher is explicitly specified. It has a shared pool of threads that is bound to the number of CPU cores available to the system but at least two. Due to comparably small amount of threads, Default Dispatcher thrives in CPU-intensive tasks that requires a lot of computation and parallelism.

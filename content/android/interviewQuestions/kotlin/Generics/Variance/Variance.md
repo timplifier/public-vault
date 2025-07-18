@@ -1,0 +1,1 @@
+In Kotlin, [[Invariance]], [[Covariance]] and [[Contravariance]] are terms to describe how subtyping works with generics. These concepts are useful when you need to deal with the type safety and complex hierarchy of types and collections.

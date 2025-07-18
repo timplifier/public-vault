@@ -1,0 +1,1 @@
+A principle that states that, essentially **all the** `Coroutines` **should be bound to certain lifecycle in order to not leak and get lost.** `kotlinx-coroutines` utilizes that principle very well, so all the [[Coroutine]] are structured in this way. So **structured concurrency** ensures that every new `Coroutine` or worker has some lifetime and will complete before exit.
